@@ -10,7 +10,7 @@ services:
     env: python
     repo: https://github.com/david66g/ZTele.git
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 server.py & python3 -m zlzl
+    startCommand: python3 -m zlzl
     region: frankfurt
     envVars:
       - key: ALIVE_NAME
