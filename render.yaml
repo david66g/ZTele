@@ -8,9 +8,9 @@ services:
     plan: free
     name: Best-Render
     env: python
-    repo: https://github.com/The-Tepthon/Userbot
+    repo: https://github.com/david66g/ZTele.git
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 server.py & python3 -m Tepthon
+    startCommand: python3 server.py & python3 -m zlzl
     region: frankfurt
     envVars:
       - key: ALIVE_NAME
