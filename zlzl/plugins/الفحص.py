@@ -34,7 +34,7 @@ async def amireallyalive(event):
     boot_time_timestamp = psutil.boot_time()
     bt = datetime.fromtimestamp(boot_time_timestamp)
     start = datetime.now()
-    zedevent = await edit_or_reply(event, "**يتِم فحـص تنصيبـك لـ  𝖳𝖾𝗉𝗍h᥆ᥒ 𔘓  . .**")
+    zedevent = await edit_or_reply(event, ""**⎆┊جـاري .. فحـص البـوت الخـاص بك**"")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
@@ -45,7 +45,7 @@ async def amireallyalive(event):
     else:
         zedda = f"{bt.year}/{bt.month}/{bt.day}"
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "✾╿"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**- بوت تيبثـون 𝖳𝖤𝖯𝖳𝖧𝖮𝖭 يعمـل بنجـاح 🌿 ..**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** بـوت  زدثــون 𝗭𝗧𝗵𝗼𝗻  يعمـل .. بنجـاح ☑️ 𓆩 **"
     ZED_IMG = gvarstatus("ALIVE_PIC")
     zed_caption = gvarstatus("ALIVE_TEMPLATE") or zed_temp
     caption = zed_caption.format(
@@ -90,7 +90,6 @@ zed_temp = """{ALIVE_TEXT}
 **{Z_EMOJI} منــصـة التنصِيب :** `𝐡𝐞𝐫𝐨𝐤𝐮`
 **{Z_EMOJI} تاريــخ التنصيـب : ** `{zedda}`
 **{Z_EMOJI} المالـك : ** {mention}
-**{Z_EMOJI} قنـاتنا :** [اضغـط هنـا](https://t.me/Tepthon)"""
 
 
 @zedub.zed_cmd(
@@ -107,7 +106,7 @@ async def amireallyialive(event):
     "A kind of showing bot details by your inline bot"
     reply_to_id = await reply_id(event)
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "✾╿"
-    zed_caption = "**- بوت تيبثـون 𝖳𝖤𝖯𝖳𝖧𝖮𝖭 يعمـل بنجـاح 🌿 .. **\n"
+    zed_caption = "** بـوت  زدثــون 𝗭𝗧𝗵𝗼𝗻  يعمـل .. بنجـاح ☑️ 𓆩 **\n"
     zed_caption += f"**{Z_EMOJI} إصـــدار تليثـون : ** `{version.__version__}\n`"
     zed_caption += f"**{Z_EMOJI} إصــدار تيبثــون : ** `{tepversion}`\n"
     zed_caption += f"**{Z_EMOJI} إصــدار بايـثـون : ** `{python_version()}\n`"
