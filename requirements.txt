@@ -82,17 +82,3 @@ youtube-search-python==1.4.9
 youtube-search
 youtube_dl
 yt-dlp==2025.4.30
-Pillow
-heroku3
-sqlalchemy_json
-validators
-sqlalchemy
-psycopg2
-aiohttp
-lxml_html_clean
-Selenium 
-httpcore
-httpcore==0.13.7
-lyricsgenius
-pytz
-psycopg2-binary
