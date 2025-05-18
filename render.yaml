@@ -6,7 +6,7 @@ databases:
 services:
   - type: web
     plan: free
-    name: ZTele
+    name: ZTele2
     env: python
     repo: https://github.com/david66g/ZTele
     buildCommand: pip install -U -r requirements.txt
