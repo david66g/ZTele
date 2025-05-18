@@ -1,1 +1,1 @@
-python3 -m zlzl
+python3 server.py & python3 -m zlzl
