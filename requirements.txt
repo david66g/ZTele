@@ -85,17 +85,14 @@ yt-dlp==2025.4.30
 Pillow
 heroku3
 sqlalchemy_json
-telethon
 validators
 sqlalchemy
 psycopg2
 aiohttp
 lxml_html_clean
 Selenium 
-youtube-search-python
 httpcore
 httpcore==0.13.7
-googletrans
 lyricsgenius
 pytz
 psycopg2-binary
