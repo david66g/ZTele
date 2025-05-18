@@ -1,16 +1,16 @@
 databases:
-  - name: Best-Render
+  - name: Abdo-postgres772
     ipAllowList: []
     region: frankfurt
     plan: free
 services:
   - type: web
     plan: free
-    name: Best-Render
+    name: ZTele
     env: python
-    repo: https://github.com/The-Tepthon/Userbot
+    repo: https://github.com/david66g/ZTele
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 server.py & python3 -m Tepthon
+    startCommand: python3 server.py & python3 -m zlzl
     region: frankfurt
     envVars:
       - key: ALIVE_NAME
@@ -31,6 +31,6 @@ services:
         value: 3.10.9
       - key: DATABASE_URL
         fromDatabase:
-          name: Best-Render
+          name: Abdo-postgres772
           property: connectionString  
   
