@@ -20,15 +20,15 @@ services:
       name: abdo123
       property: connectionString
   - key: PYTHON_VERSION
-    sync: 3.10.9
+    value: 3.10.9
   - key: TZ
-    sync: Asia/Amman
+    value: Asia/Amman
   - key: TG_BOT_TOKEN
     sync: false
   - key: STRING_SESSION
     sync: false
   - key: ENV
-    sync: ANYTHING
+    value: ANYTHING
   - key: APP_ID
     sync: false
   - key: API_HASH
