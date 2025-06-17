@@ -1,7 +1,7 @@
 databases:
-- name: abdo123
-  databaseName: dbabdo123
-  user: abdo123
+- name: abdo773
+  databaseName: dbabdo663
+  user: abdo773
   plan: free
   region: frankfurt
   ipAllowList:
