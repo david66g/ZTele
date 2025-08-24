@@ -20,7 +20,7 @@ services:
       name: abdo773
       property: connectionString
   - key: PYTHON_VERSION
-    value: 3.10.9
+    value: 3.11.9
   - key: TZ
     value: Asia/Amman
   - key: TG_BOT_TOKEN
