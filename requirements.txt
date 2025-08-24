@@ -83,3 +83,4 @@ youtube-search
 youtube_dl
 yt-dlp
 typing-extensions>=4.7.0
+IMDbPY
